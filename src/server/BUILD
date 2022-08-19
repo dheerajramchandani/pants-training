@@ -3,10 +3,6 @@ pex_binary(
     entry_point="greeter_server.py",
 )
 
-python_requirements(
-    name="reqs",
-)
-
 python_sources()
 
 python_distribution(
