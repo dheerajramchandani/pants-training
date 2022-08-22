@@ -13,3 +13,7 @@ python_distribution(
         name="grpc-server",
     )
 )
+
+docker_image(
+    name="docker",
+)

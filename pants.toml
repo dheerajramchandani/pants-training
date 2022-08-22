@@ -8,7 +8,8 @@ backend_packages.add = [
 #   "pants.backend.experimental.python.lint.autoflake",
 #   "pants.backend.plugin_development",
   "pants.backend.codegen.protobuf.python",
-#   "pants.backend.experimental.python"
+#   "pants.backend.experimental.python",
+  "pants.backend.docker",
 ]
 
 #plugins = []
