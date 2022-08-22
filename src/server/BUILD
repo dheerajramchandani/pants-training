@@ -11,9 +11,11 @@ python_distribution(
     sdist=False,
     provides=python_artifact(
         name="grpc-server",
+        version="0.1.0",
     )
 )
 
 docker_image(
     name="docker",
+    dependencies=[":server"]
 )
