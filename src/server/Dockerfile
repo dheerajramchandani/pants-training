@@ -1,6 +1,6 @@
-From python:3.7
+FROM python:3.7
 
-Run mkdir /app
+RUN mkdir /app
 WORKDIR /app
 
 COPY ./src/server/ /app/
