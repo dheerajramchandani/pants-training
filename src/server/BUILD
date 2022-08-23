@@ -17,5 +17,10 @@ python_distribution(
 
 docker_image(
     name="docker",
-    dependencies=[":server"]
+    dependencies=[":server_source_code", "3rdparty:python_requirements"]
+)
+
+file(
+    name="server_source_code",
+    source="greeter_server.py",
 )
