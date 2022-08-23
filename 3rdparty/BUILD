@@ -1,5 +1,6 @@
 python_requirements(
     name="reqs",
+    module_mapping={"grpcio": ["grpc"]},  # This is required because of a bug.
 )
 
 file(
